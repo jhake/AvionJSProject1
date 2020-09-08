@@ -1,8 +1,8 @@
 "use strict"
 
-const display = document.getElementById("display")
+const displayContent = document.getElementById("displayContent")
 const helloBtn = document.getElementById("helloBtn")
 
 helloBtn.onclick = () => {
-    display.innerHTML = "Hello, world!"
+    displayContent.innerHTML = "Hello, world!"
 }
