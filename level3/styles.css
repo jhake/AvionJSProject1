@@ -69,3 +69,8 @@ body {
     font-size: 20px;
     font-weight: 600;
 }
+
+#helloBtn, #goodbyeBtn {
+    background: black;
+    color: white;
+}
