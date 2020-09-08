@@ -18,6 +18,11 @@ helloBtn.onclick = () => {
 }
 
 goodbyeBtn.onclick = () => {
-    displayContent.innerHTML = "Goodbye " + nameInput.value
+    if(goodbyeBtn.innerHTML === "Say Goodbye") {
+        displayContent.innerHTML = "Goodbye " + nameInput.value
+        goodbyeBtn.innerHTML = "Clear"
+    } else {
+        displayContent.innerHTML = ""
+        goodbyeBtn.innerHTML = "Say Goodbye"
+    }
 }
-
